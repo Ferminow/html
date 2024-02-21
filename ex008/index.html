@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formmatação de textos</title>
+    <style>
+        mark {
+            background-color: lime;
+        }
+        /* Background da página e cor da escrita CTRL+K+C */
+        .Fermino{               
+            background-color: rgb(65, 61, 61);
+            color: rgb(195, 195, 228);
+        } 
+        /* Bacakground da linha e cor da escrita */
+        .cris{
+            background-color: rgb(55, 65, 214);
+            mark{
+                background-color: rgb(223, 144, 79);
+            }
+            
+        }
+    </style>
+</head>
+<body class="Fermino">
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p class="cris">Nessa frase temos um <b>termo em negrito</b> usando a tecla B.</p>
+    <p>Nessa Frase, temos um <strong>termo em destaque</strong> usando STRONG </p>
+    <H2>Itálico / Ênfase</H2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tecla I (não semântica). </p>
+    <p> Um exemplo para <i>adicionar itálico</i> depois de digitada a frase</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> sando a tag EM (semântica)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK </p>
+    <p>E no outro parágrafo, temos <mark style="color: rgb(14, 15, 15);">outro texto marcado</mark> no final </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+    <h2>Texto deletado</h2>
+    <P>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado</P>
+    <h2 class="cris">Texto inserido</h2>
+    <p class="cris">Podemos marcar <ins>um texto <mark>como</mark> inserido</ins> para dar um ênfase e indicar que ele foi adicionado depois</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semática)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+
+</body>
+</html>
